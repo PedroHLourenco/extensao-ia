@@ -26,7 +26,7 @@
 
     <!-- Main -->
     <main class="max-w-4xl mx-auto px-6 py-10 space-y-12">
-      <!-- SEÇÃO 1 -->
+      <!-- SEÇÃO 1: O que é Inteligência Artificial -->
       <section
         class="bg-white p-8 rounded-xl shadow-sm border border-slate-200"
       >
@@ -68,16 +68,16 @@
             <ul
               class="text-sm text-slate-600 space-y-1.5 list-disc list-inside"
             >
-              <td>Assistentes virtuais e chatbots de atendimento</td>
-              <td>Sistemas de recomendação (redes sociais e streaming)</td>
-              <td>Tradutores automáticos e corretores ortográficos</td>
-              <td>Ferramentas de geração de texto, imagem e código</td>
+              <li>Assistentes virtuais e chatbots de atendimento</li>
+              <li>Sistemas de recomendação (redes sociais e streaming)</li>
+              <li>Tradutores automáticos e corretores ortográficos</li>
+              <li>Ferramentas de geração de texto, imagem e código</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- SEÇÃO 2 -->
+      <!-- SEÇÃO 2: Pilares do Uso Ético e Segurança -->
       <section
         class="bg-white p-8 rounded-xl shadow-sm border border-slate-200"
       >
@@ -118,7 +118,7 @@
         </div>
       </section>
 
-      <!-- SEÇÃO 3 - Quiz -->
+      <!-- SEÇÃO 3: Quiz Interativo -->
       <section
         class="bg-white p-8 rounded-xl shadow-sm border border-slate-200"
       >
@@ -134,98 +134,144 @@
 
         <form id="quiz-form" class="space-y-6">
           <!-- Pergunta 1 -->
-          <div class="border-b border-slate-200 pb-4">
-            <p class="font-semibold text-slate-800 mb-2">
-              1. É seguro colar um contrato com dados de clientes em uma
-              ferramenta pública de IA para pedir um resumo?
+          <div class="border-b border-slate-200 pb-5">
+            <p class="font-semibold text-slate-800 mb-3">
+              1. É seguro colar um contrato confidencial ou documentos com dados
+              de clientes em uma ferramenta pública de IA?
             </p>
-            <label class="block text-sm my-1 cursor-pointer"
-              ><input type="radio" name="q1" value="incorrect" class="mr-2" />
-              Sim, pois a ferramenta é privada e não guarda nada.</label
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q1" value="incorrect1" class="mr-2" />
+              Sim, pois as ferramentas públicas apagam todas as conversas
+              imediatamente.</label
             >
-            <label class="block text-sm my-1 cursor-pointer"
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q1" value="incorrect2" class="mr-2" />
+              Sim, desde que o arquivo esteja no formato PDF.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
               ><input type="radio" name="q1" value="correct" class="mr-2" />
-              Não, dados confidenciais ou pessoais não devem ser compartilhados
-              em IAs públicas.</label
+              Não, pois os dados inseridos podem ser armazenados e usados para
+              treinar futuros modelos de IA.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q1" value="incorrect3" class="mr-2" />
+              Não, a menos que você esteja acessando o site pelo modo anônimo do
+              navegador.</label
             >
           </div>
 
           <!-- Pergunta 2 -->
-          <div class="border-b border-slate-200 pb-4">
-            <p class="font-semibold text-slate-800 mb-2">
-              2. O que fazer ao receber um texto com dados estatísticos gerado
-              por IA?
+          <div class="border-b border-slate-200 pb-5">
+            <p class="font-semibold text-slate-800 mb-3">
+              2. O que são as chamadas "alucinações" em sistemas de IA geradores
+              de texto?
             </p>
-            <label class="block text-sm my-1 cursor-pointer"
-              ><input type="radio" name="q2" value="correct" class="mr-2" />
-              Checar as fontes e dados em sites oficiais antes de utilizar ou
-              compartilhar.</label
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q2" value="incorrect1" class="mr-2" />
+              Vírus computacionais que deixam a resposta do robô mais
+              lenta.</label
             >
-            <label class="block text-sm my-1 cursor-pointer"
-              ><input type="radio" name="q2" value="incorrect" class="mr-2" />
-              Confiar totalmente, pois a IA consulta toda a internet sem
-              errar.</label
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q2" value="correct" class="mr-2" />
+              Quando a IA gera informações falsas ou inventadas com total
+              convicção e aparência de verdade.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q2" value="incorrect2" class="mr-2" />
+              Recurso usado para criar imagens poéticas e abstratas.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q2" value="incorrect3" class="mr-2" />
+              Erro de conexão de internet que impede o envio da mensagem.</label
             >
           </div>
 
           <!-- Pergunta 3 -->
-          <div class="border-b border-slate-200 pb-4">
-            <p class="font-semibold text-slate-800 mb-2">
-              3. Como a Inteligência Artificial deve ser utilizada no dia a dia?
+          <div class="border-b border-slate-200 pb-5">
+            <p class="font-semibold text-slate-800 mb-3">
+              3. Qual das alternativas abaixo representa uma atitude consciente
+              ao utilizar IA no dia a dia?
             </p>
-            <label class="block text-sm my-1 cursor-pointer"
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q3" value="incorrect1" class="mr-2" />
+              Aceitar todas as decisões tomadas pela IA, já que algoritmos são
+              neutros e não erram.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
               ><input type="radio" name="q3" value="correct" class="mr-2" />
-              Como uma ferramenta de apoio, sempre mantendo a revisão e a
+              Usar a IA como ferramenta de apoio, checando os dados e mantendo a
               responsabilidade humana.</label
             >
-            <label class="block text-sm my-1 cursor-pointer"
-              ><input type="radio" name="q3" value="incorrect" class="mr-2" />
-              Como substituta total de decisões humanas e checagem de
-              fatos.</label
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q3" value="incorrect2" class="mr-2" />
+              Substituir pesquisas em sites de notícias e fontes oficiais
+              exclusivamente pelo chat de IA.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q3" value="incorrect3" class="mr-2" />
+              Compartilhar imediatamente notícias geradas por IA sem checar a
+              veracidade das fontes.</label
             >
           </div>
 
           <!-- Pergunta 4 -->
-          <div class="border-b border-slate-200 pb-4">
-            <p class="font-semibold text-slate-800 mb-2">
-              4. O que é um "Deepfake" e qual é o principal risco associado a
-              ele?
+          <div class="border-b border-slate-200 pb-5">
+            <p class="font-semibold text-slate-800 mb-3">
+              4. O que é um "Deepfake" e qual o seu risco na sociedade?
             </p>
-            <label class="block text-sm my-1 cursor-pointer"
-              ><input type="radio" name="q4" value="correct" class="mr-2" />
-              Vídeos ou áudios manipulados por IA para simular pessoas reais,
-              usados frequentemente na criação de fake news.</label
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q4" value="incorrect1" class="mr-2" />
+              Uma técnica de programação para deixar jogos 3D mais
+              realistas.</label
             >
-            <label class="block text-sm my-1 cursor-pointer"
-              ><input type="radio" name="q4" value="incorrect" class="mr-2" />
-              Um vírus de computador antigo que afeta apenas telemóveis e redes
-              sociais.</label
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q4" value="incorrect2" class="mr-2" />
+              Um tipo de antivírus usado em servidores de grande porte.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q4" value="correct" class="mr-2" />
+              Vídeos, áudios ou fotos adulterados por IA para simular pessoas
+              reais, usados na criação de fake news.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q4" value="incorrect3" class="mr-2" />
+              Um sistema de busca avançado para encontrar documentos acadêmicos
+              antigos.</label
             >
           </div>
 
           <!-- Pergunta 5 -->
           <div>
-            <p class="font-semibold text-slate-800 mb-2">
-              5. Ao utilizar conteúdos (textos ou imagens) gerados por IA em
-              trabalhos escolares ou profissionais, qual é a atitude ética
-              correta?
+            <p class="font-semibold text-slate-800 mb-3">
+              5. Ao utilizar auxílio de IA para elaborar um trabalho acadêmico
+              ou profissional, o que é recomendado do ponto de vista ético?
             </p>
-            <label class="block text-sm my-1 cursor-pointer"
-              ><input type="radio" name="q5" value="incorrect" class="mr-2" />
-              Apresentar o conteúdo como 100% de sua autoria, sem mencionar o
-              uso de ferramentas digitais.</label
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q5" value="incorrect1" class="mr-2" />
+              Apresentar o texto gerado integralmente como de sua autoria sem
+              fazer alterações.</label
             >
-            <label class="block text-sm my-1 cursor-pointer"
+            <label class="block text-sm my-1.5 cursor-pointer"
               ><input type="radio" name="q5" value="correct" class="mr-2" />
-              Revisar o material, validar as informações e declarar abertamente
-              o uso da IA como ferramenta de auxílio.</label
+              Validar as informações, revisar o texto e declarar o uso da IA
+              como ferramenta de apoio.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q5" value="incorrect2" class="mr-2" />
+              Esconder o uso da ferramenta para evitar qualquer tipo de
+              avaliação crítica.</label
+            >
+            <label class="block text-sm my-1.5 cursor-pointer"
+              ><input type="radio" name="q5" value="incorrect3" class="mr-2" />
+              Utilizar a IA apenas para tradução, pois outros usos são proibidos
+              por lei.</label
             >
           </div>
 
           <button
             type="button"
             onclick="calcularResultado()"
-            class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded-lg transition duration-200"
+            class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2.5 px-6 rounded-lg transition duration-200"
           >
             Enviar Respostas
           </button>
@@ -237,7 +283,7 @@
         ></div>
       </section>
 
-      <!-- SEÇÃO 4 -->
+      <!-- SEÇÃO 4: Feedback do Usuário -->
       <section
         class="bg-indigo-50 p-8 rounded-xl border border-indigo-100 text-center"
       >
@@ -269,7 +315,7 @@
       </p>
     </footer>
 
-    <!-- Lógica do Quiz -->
+    <!-- Lógica -->
     <script>
       function calcularResultado() {
         const form = document.getElementById("quiz-form");
@@ -302,10 +348,10 @@
 
         if (acertos >= 4) {
           resultDiv.classList.add("bg-green-100", "text-green-800");
-          resultDiv.innerHTML = `🎉 Excelente! Acertou ${acertos} de 5 perguntas. Demonstra um ótimo conhecimento sobre o uso seguro e ético da IA!`;
+          resultDiv.innerHTML = `🎉 Excelente! Você acertou ${acertos} de 5 perguntas. Demonstra um ótimo conhecimento sobre o uso seguro e ético da IA!`;
         } else {
           resultDiv.classList.add("bg-amber-100", "text-amber-800");
-          resultDiv.innerHTML = `💡 Acertou ${acertos} de 5 perguntas. Revise o conteúdo educativo no topo da página para aprender a navegar de forma ainda mais segura.`;
+          resultDiv.innerHTML = `💡 Você acertou ${acertos} de 5 perguntas. Revise o conteúdo educativo no topo da página para aprender a navegar de forma ainda mais segura.`;
         }
       }
     </script>
